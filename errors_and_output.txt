@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Antho\temp.py", line 91, in <module>
+    main()
+  File "C:\Users\Antho\temp.py", line 77, in main
+    website_data = scrape_website('https://example.com')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Antho\temp.py", line 17, in scrape_website
+    headers = table.find_all('th')
+              ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'find_all'
